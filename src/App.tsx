@@ -1,7 +1,18 @@
+import {BrowserRouter, Routes,Route} from 'react-router-dom'
+import Detalle from './components/Detalle'
+import Header from './components/Header'
+import Usuarios from './components/Usuarios'
+import './css/estilos.css'
 
-function App() {
+const App =() => {
   return (
-    <h2>Lista de Usuarios</h2>
+    <BrowserRouter>
+      <Header />
+      <Routes>
+         <Route path='/' element = {<Usuarios />} />
+         <Route path='/usuarios/:id' element = {<Detalle />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 

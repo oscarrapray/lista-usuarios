@@ -44,7 +44,7 @@
     border-radius: 15px;
     padding: 1em;
   }
-  .container span{
+  .container span,.container-detalle span{
       font-weight: bold;
       margin-right: .3em;
   }

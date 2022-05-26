@@ -1,6 +1,19 @@
+import Usuario from "./Usuario"
+
 const Usuarios = () =>{
     return (
-        <h2>Usuarios</h2>
+        <div className="l-container">
+        <div className="l-grid container">
+            <Usuario />
+            <Usuario />
+            <Usuario />
+            <Usuario />
+            <Usuario />
+            <Usuario />
+            <Usuario />
+            <Usuario />
+        </div>
+    </div>
     )
 }
 export default Usuarios
